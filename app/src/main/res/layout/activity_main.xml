@@ -5,24 +5,34 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:orientation="vertical"
-        android:background="@color/dark_gray">
+    tools:context=".MainActivity"
+    android:background="@color/dark_gray">
 
+    <Button
+        android:layout_width="92dp"
+        android:layout_height="60dp"
+        tools:layout_editor_absoluteX="97dp"
+        tools:layout_editor_absoluteY="16dp" />
 
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="92dp"
+        android:layout_height="60dp"
+        tools:layout_editor_absoluteX="204dp"
+        tools:layout_editor_absoluteY="16dp" />
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Hello World!"
+    <ImageButton
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:background="@drawable/kolko"
+        android:src="@drawable/add_split"
+        android:backgroundTint="#bf1d3b"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.951"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.975" />
 
-    </LinearLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
