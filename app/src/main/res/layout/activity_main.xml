@@ -7,19 +7,26 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity"
     android:background="@color/dark_gray">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
 
-    <Button
-        android:layout_width="92dp"
-        android:layout_height="60dp"
-        tools:layout_editor_absoluteX="97dp"
-        tools:layout_editor_absoluteY="16dp" />
+        <Button
+            android:layout_width="205dp"
+            android:layout_height="60dp"
+            android:backgroundTint="@color/dark_gray"
+            android:text="PLANY" />
 
-    <Button
-        android:id="@+id/button2"
-        android:layout_width="92dp"
-        android:layout_height="60dp"
-        tools:layout_editor_absoluteX="204dp"
-        tools:layout_editor_absoluteY="16dp" />
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="205dp"
+            android:layout_height="60dp"
+            android:backgroundTint="@color/dark_gray"
+            android:text="PR" />
+    </LinearLayout>
+
+
 
     <ImageButton
         android:layout_width="80dp"
